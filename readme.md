@@ -6,11 +6,11 @@ Repositório de códigos do bootcamp de ED de Jun/21
 
 ## Facilitadores
 
-* How - [Site](https://howedu.com.br/)
+* How Bootcamp - [Site](https://howedu.com.br/)
 * André Sionek - [GitHub](https://github.com/andresionek91)
 * Rhuan Lima - [GitHub](https://github.com/rhuanlima)
 
-## Agenda:
+## Calendário:
 
 - 10/06 (Quinta): Encontro Inaugural
 - 17/06 (Quinta): Live com convidado
