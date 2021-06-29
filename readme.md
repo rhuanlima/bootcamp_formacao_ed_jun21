@@ -10,7 +10,7 @@ Repositório de códigos do bootcamp de ED de Jun/21
 * André Sionek - [GitHub](https://github.com/andresionek91)
 * Rhuan Lima - [GitHub](https://github.com/rhuanlima)
 
-## Calendário:
+## Agenda:
 
 - 10/06 (Quinta): Encontro Inaugural
 - 17/06 (Quinta): Live com convidado
