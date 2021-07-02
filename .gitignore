@@ -296,3 +296,4 @@ pip-selfcheck.json
 ### Personal
 .env
 .todo
+.vscode/settings.json
