@@ -1,4 +1,5 @@
 # HOW Bootcamp Formação de dados
+[![wakatime](https://wakatime.com/badge/github/rhuanlima/bootcamp_formacao_ed_jun21.svg)](https://wakatime.com/badge/github/rhuanlima/bootcamp_formacao_ed_jun21)
 
 ## Engenharia de dados  - Jun/21
 
