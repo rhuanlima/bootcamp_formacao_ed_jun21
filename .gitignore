@@ -297,3 +297,5 @@ pip-selfcheck.json
 .env
 .todo
 .vscode/settings.json
+MOD19/outputs/dados.csv
+MOD19/logs/*
