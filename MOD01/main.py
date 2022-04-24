@@ -5,22 +5,30 @@ import sys
 
 
 
-#url = 'http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLNDH0MPAzcDbz8vTxNDRy9_Y2NQ13CDA0sTIEKIoEKnN0dPUzMfQwMDEwsjAw8XZw8XMwtfQ0MPM2I02-AAzgaENIfrh-FqsQ9wBmoxN_FydLAGAgNTKEK8DkRrACPGwpyQyMMMj0VAcySpRM!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_HGK818G0K85260Q5OIRSC42046/res/id=historicoHTML/c=cacheLevelPage/=/'
+url = 'https://servicebus2.caixa.gov.br/portaldeloterias/api/resultados?modalidade=Lotofácil'
 url = sys.argv[1]
 
 
 r = requests.get(url)
 
 r.text
-r_text = r.text
+r_text = r.text.replace('\\r\\n', '')
+r_text = r.text.replace('"\r\n}', '')
+r_text = r.text.replace('{\r\n  "html": "', '')
+r_text
 
 df = pd.read_html(r_text)
 
-
 type(df)
 type(df[0])
-
 df=df[0].copy()
+
+new_columns = df.columns
+new_columns = list(i.replace('\\r\\n', '') for i in new_columns)
+new_columns
+df.columns = new_columns
+df[df['Bola1'] == df['Bola1']]
+
 
 
 nr_pop = list(range(1, 26))
